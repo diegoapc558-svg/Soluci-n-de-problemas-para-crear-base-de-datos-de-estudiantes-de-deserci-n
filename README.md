@@ -20,5 +20,5 @@ Al abrir el dashboard con respecto a deserción de estudiantes, se dirige a la h
 
 <a href="https://ibb.co/xKTnJ6f4"><img src="https://i.ibb.co/zWv3GZ7k/Captura-de-pantalla-2026-09-03-151720.png" alt="Captura-de-pantalla-2026-09-03-151720" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
 
-
+Posterior a esto, es posible que algunas columnas no tengan el mismo formato de datos que el que tenían anteriormente, por lo que hay que compararlo con el archivo que no ha sido actualizado para que las gráficas ilustrativas en el dashboard se presenten correctamente; asimismo, corregir si es necesario el contenido en cada columna, ya que por ejemplo los periodos pueden contener un guíon y otros no (**2026-3/20263**), para definir su contenido hay que seguir el mismo modelo del archivo anterior (sin actualizar) ya que esto también genera inconvenientes al trazar los ejes de tiempo en gráficas o la descripción a partir de tablas, del mismo modo que puede afectar las fórmulas o parámetros que dependen de dicha variable. Finalmente, se da click en **Cerrar y aplicar** para verificar que los datos han sido actualizados de forma exitosa.
 
