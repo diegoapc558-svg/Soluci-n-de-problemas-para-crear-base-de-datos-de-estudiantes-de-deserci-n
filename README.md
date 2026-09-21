@@ -12,6 +12,13 @@ bd = pd.read_excel(r"D:\usuarios\Distrital\Downloads\BD_ (1).xlsx")
 est = pd.read_excel(r"D:\usuarios\Distrital\Downloads\estados (1).xlsx")
 ```
 
-También es importante verificar que la biblioteca **Pandas** esté instalada para no obtener errores al compilar el código
+También es importante verificar que la biblioteca **Pandas** esté instalada para no obtener errores al compilar el código.
+## Paso 3: Verificación del archivo creado 
+Al obtener el archivo actualizado denominado **BASE_COMPLETA**, es necesario verificar que los datos se han actualizado exitosamente; adicionalmente, hay que añadir una nueva columna que se observa en el excel que no está actualizada, esta es **Columna1**, luego verificar que las demás estén en el mismo orden para que en el momento de aplicar este nuevo archivo al dashboard en power bi, no haya ningun incoveniente con respecto a la información a la que se accede. Finalmente es necesario seleccionar toda la tabla en excel y darle formato de tabala, verificar que esta quede denominaa como **Tabla1**.
+## Paso 4: Aplicación al dashboard en power bi
+Al abrir el dashboard con respecto a deserción de estudiantes, se dirige a la herramienta **Transformar datos**. Se puede verificar que la tabla si tenga la misma ruta de acceso al excel generado a partir del código en python, en la sección **Origen** al costado derecho de la pantalla:
+
+<a href="https://ibb.co/xKTnJ6f4"><img src="https://i.ibb.co/zWv3GZ7k/Captura-de-pantalla-2026-09-03-151720.png" alt="Captura-de-pantalla-2026-09-03-151720" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
+
 
 
